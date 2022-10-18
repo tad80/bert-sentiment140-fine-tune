@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+sklearn = "*"
+bertlibrary = "*"
+transformers = "*"
+logger = "*"
+tensorflow = "==2.9.2"
+tensorflow-model-optimization = "*"
+torch = "*"
+tensorflow-hub = "*"
+tf-models-official = "*"
+tensorflow-text = "*"
+tqdm = "*"
+nltk = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
